@@ -1,5 +1,5 @@
 {
-  "name": "Ping Glitch",
+  "name": "pingglitch",
   "version": "1.0.0",
   "description": "This is a little program to ping glitch project",
   "main": "index.js",
