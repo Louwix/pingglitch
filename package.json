@@ -1,0 +1,42 @@
+{
+  "name": "Ping Glitch",
+  "version": "1.0.0",
+  "description": "This is a little program to ping glitch project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Louwix/pingglitch.git"
+  },
+  "author": "Louwix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Louwix/pingglitch/issues"
+  },
+  "homepage": "https://github.com/Louwix/pingglitch#readme",
+  "engines": {
+    "node": "8.4.0"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+  },
+  "install": {
+    "include": [
+      "^package\\.json$",
+      "^\\.env$"
+    ]
+  },
+  "restart": {
+    "exclude": [
+      "^public/",
+      "^dist/"
+    ],
+    "include": [
+      "\\js$",
+      "\\.json"
+    ]
+  },
+  "throttle": 90000
+}
