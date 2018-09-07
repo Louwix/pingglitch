@@ -7,4 +7,4 @@ setInterval(() => {
 	http.get(`http://bot-hackers.glitch.me`);
 	http.get(`http://louwixbot.glitch.me`);
 	console.log("Ping !")
-}, 28000);
+}, 298000);
